@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MovieWatcher.Api/MovieWatcher.Api.csproj" />
+  <Project Path="MovieWatcher.Core/MovieWatcher.Core.csproj" />
+  <Project Path="MovieWatcher.Web/MovieWatcher.Web.Client/MovieWatcher.Web.Client.csproj" />
+  <Project Path="MovieWatcher.Web/MovieWatcher.Web/MovieWatcher.Web.csproj" />
+</Solution>
