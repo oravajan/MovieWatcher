@@ -1,3 +1,15 @@
-@MovieWatcher.Api_HostAddress = http://localhost:5047
+@MovieWatcherApi_HostAddress = https://localhost:7282
 
-###
+### Get all movies
+GET {{MovieWatcherApi_HostAddress}}/api/movies
+Accept: application/json
+
+### Add a new movie
+POST {{MovieWatcherApi_HostAddress}}/api/movies
+Content-Type: application/json
+
+{
+  "title": "Dune: Part Two",
+  "isCompleted": false,
+  "csfdUrl": "https://www.csfd.cz/film/1009139-duna-cast-druha/"
+}
